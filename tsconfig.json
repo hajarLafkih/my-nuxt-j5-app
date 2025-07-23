@@ -1,0 +1,10 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "skipLibCheck": true
+  },
+  "includes": [
+    "types/*.d.ts"
+  ]
+}
